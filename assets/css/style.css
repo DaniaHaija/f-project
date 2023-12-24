@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Be Vietnam Pro;
+    background-color: #F7F7F8;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.container{
+    width: calc(100% - 60px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+        
+}
+.container1{
+    width: calc(100% - 324px);
+    margin: auto;
+} 
+.hedding{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hedding h3{
+    font-weight:  800;
+    font-size: 30px;
+}
+.heddingchild{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.heddingchild p{
+    font-size:10px ;
+}
+.heddingchild a{
+    border-radius: 7px;
+    border: 1px solid  #F1F1F3;
+    background:  #FCFCFD;
+    font-size: 15px;
+    padding: 9px;
+    font-weight: 800;
+
+}
+header{
+    padding: 20px 132px 24px 132px;
+    border-bottom: 1px solid  #F1F1F3;
+    position: sticky;
+    top: 0;   
+    z-index: 9;
+    background-color: white; 
+}
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+   
+}
+ header nav img{
+    width: 54px;
+ }
+ header nav .active{
+    background-color: #F1F1F3;
+    border-radius: 8px;
+    padding: 14px 24px;
+ }
+header .Register{
+
+   display: flex;
+   gap: 30px;
+    align-items: center;  
+}
+header .Register  a{
+     color:beige;
+    background-color: #FF9500;
+    border-radius: 8px;
+    padding: 14px 34px;  
+}
+.section1{
+    padding: 60px 0;
+}
+.section1 .Home-Page{
+   margin: auto;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section1 .heddings{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.section1 .hedding{
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+    border: 1px solid  #F1F1F3;
+    background:  #FCFCFD;
+    padding: 14px 30px 14px 20px;
+}
+.Abstract{
+    display: flex;
+    position: absolute;
+    left: -24px;
+    top: -30px;
+    right: 0;
+}
+
+.hedding span{
+    color:#FF9500;
+}
+.heddings .p1{
+    font-size: 20px;
+    font-weight: 550;
+}
+.heddings .p2{
+    font-size: 10px;
+    font-weight: 400;
+}
+.buttons{
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+
+}
+
+.buttons .button1{
+    background-color: #FF9500;
+    color: #F1F1F3;
+    padding: 18px 24px;
+    border-radius: 8px;
+    
+}
+.buttons .button2{
+    background-color: #F1F1F3;
+    color: black;
+    padding: 18px 24px;
+    border-radius: 8px;
+}
+.section2{
+    padding: 40px 0;
+   
+}
+.Cards{
+    width: 1000px;
+    border-radius: 12px;
+    border: 1px solid   #F1F1F3;
+    background:   #FCFCFD;
+    padding: 20px;
+    margin: auto;
+  
+}
+
+ .card  {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card svg{
+    border-left: 1px solid  #F1F1F3;
+    padding: 20px 30px;
+}
+
+.card .svg1{
+    border-left: 1px solid    #FCFCFD; 
+} 
+.section3{
+    padding: 40px 0;
+   
+}
+.Hero-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+     
+}
+.Hero-section img{
+    
+    width: 1050px;
+   
+}
+     
+ 
+.Hero-section svg{
+    border-radius: 68px;
+    border: 6px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.20);;
+    position: absolute;
+    padding: 10px;
+
+}
+.section4{
+    padding: 40px 0;
+}
+
+.Benefits{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+   
+}
+
+
+.Benefits .row{
+    gap: 20px;
+    align-items: stretch;
+   
+ 
+} 
+ 
+.Benefits .card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background:  #FFF;
+    gap: 40px;
+    padding: 10px;
+    align-items: flex-end;
+    flex: 1;
+    
+}
+.Benefits .card .num{
+   text-align: right;
+   color:  #262626;
+   font-size: 40px;
+   font-weight: 700;
+}
+.Benefits .card .text{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  
+}
+.Benefits .card .icon{
+   padding: 5px;
+    text-align: right;
+    border-radius: 8px;
+   border: 1px solid  #F1F1F3;
+   background:  #FCFCFD;
+   
+    
+}
+.section5{
+    padding: 40px 0;
+}
+.Our-Courses{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Our-Courses .row{
+    gap: 30px;
+}
+ .Our-Courses .card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 12px;
+   border: 1px solid  #F1F1F3;
+   background:  #FFF;
+   padding: 50px;
+   flex: 1;
+   align-self: stretch;
+  
+  
+}
+.Our-Courses .card .card-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Our-Courses .card .card-item {
+    display: flex;
+    gap: 10px;
+   
+    
+}
+.Our-Courses .card img{
+   width: 100%;
+}
+.card-items p{
+    font-weight: 600;
+    font-size: 15px;
+
+}
+ .card-item p{
+    border: 1px solid  #F1F1F3;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+ .card .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+ }
+ .card .card-text .p1{
+    font-weight: 600;
+    font-size: 24px;
+ }
+ .card .card-text .p2{
+    font-size: 10px;
+    font-weight: 400;
+    
+ }
+ .Our-Courses .card a{
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background:  #F7F7F8;
+    text-align: center;
+    padding: 10px;
+ }
+
+.Our-Testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.row {  
+    gap: 30px;
+    width:calc((100% - 30px)/2);  
+
+}
+
+.Testimonial{
+
+
+    border-radius: 12px;
+   border: 1px solid var(--White-95, #F1F1F3);
+   background-color: var(--Absolute-White, #FFF);
+   display: flex;
+  flex-direction: column;
+
+ 
+    
+    
+}
+.Testimonial .p1{
+    border-bottom: 1px solid  #F1F1F3;
+    padding: 50px;
+
+}
+.Testimonial-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:  #FCFCFD;
+    border-bottom: 1px solid #FCFCFD;
+    border-radius: 12px;
+}
+.Testimonial-item a{
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background: #F7F7F8;
+    padding: 18px;
+}
+.Testimonial-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer{
+    padding: 80px 150px 20px 152px;
+    gap: 90px;
+    background-color:white;
+    
+}
+
+.footer-left, .footer-right ,.ph {
+    width: calc((100% - 90px)/3)   
+
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.footer .ph{
+    
+    color:  #656567;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   
+
+}
+.footer-left img{
+    width: 30px;
+}
+.footer-left-child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-left-child1{
+   display: flex;
+   align-items: center;
+}
+.footer-right{
+    display: flex;
+    gap: 40px;
+   
+}
+.footer-right-child{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footer-right-child nav{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ .footer-right-child1{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    
+ } 
+ .footer-right-child1 nav{
+   display: flex;
+    gap: 14px;
+
+ }
+ .footer-right-child1 a{
+    border: 1px solid  #F1F1F3;
+    border-radius: 8px;
+    padding: 5px;
+    
+    
+ } 
+ 
+
+   
+
+
+
+
+
+
